@@ -1,0 +1,4 @@
+print("HELLO WORLD")
+print(5)
+print("bye")
+print(7+9)
