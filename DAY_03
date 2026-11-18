@@ -1,0 +1,9 @@
+WHAT DO YOU MEAN BY MODULES AND PIP??
+
+MODULES: used to borrow someone else's code
+-you can use someone ese's code in your python programe
+
+Types of MODULES:
+1.Built-in Modules - These modules are ready to import and use and ships with python interpreter , there is no need to install such modules expilicitly.
+2.External Modules - these modules are imported fromthe third party file or pip or conda.
+Since this code is written by someone else , we can install different versions of a same module with time. 
