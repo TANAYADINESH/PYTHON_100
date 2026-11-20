@@ -1,0 +1,58 @@
+VARIABLES : 
+Variable is like a container that holds data.
+Creating a variable is like creating a placeholder in memory and assigning it some value 
+example: a=1
+         b=True
+         c="Tanaya"
+         d=None
+
+
+DATA TYPES - specifies type of value a variable holds.
+• In Python, we can print the type of any operator using type function.
+• By default Python provides the following built-in data types -
+
+1) Numeric data: int, float, complex, double
+→ int = 3, -8, 0
+→ float = 7.346, -9.0, 4.0144
+→ complex = 6 + 2j
+→ double = Python does not have double keyword
+
+2) Text data: str
+→ "Hello World"
+→ "Tanaya"
+3) Boolean data: bool
+→ True or False
+
+4) Sequenced data: list, tuple, range
+→ List - A list is an ordered collection of data with elements separated by a comma & enclosed within square brackets.
+• List are mutable.
+• List can be modified after creation.
+Eg:
+python
+list1 = [8, 2.3, [-4, 5]]
+list2 = ["apple", "banana"]
+print(list1)
+print(list2)
+
+→ Range - A range represents an immutable seq. of numbers, commonly used for looping a specific no. of time.
+Syntax: range(start, stop, step)
+Eg:
+python
+r1 = range(5)          # -> 0, 1, 2, 3, 4
+r2 = range(2, 10, 2)   # -> 2, 4, 6, 8  (Note: written as "rang" in notes)
+print(list(r2))
+
+→ Tuple - A tuple is an ordered collection of data with elements separated by a comma and enclosed within parentheses.
+• Tuples are immutable and cannot be modified after creation.
+Eg:
+python
+tuple1 = (("parrot", "sparrow"), ("Lion", "Tiger"))
+print(tuple1)
+
+5) Mapped Data: dict
+→ dict - A dictionary is an unordered collection of data containing a key: value pair.
+• The key: value pairs are enclosed within curly brackets.
+Eg:
+python
+dict1 = {"name": "Tanaya", "age": 20, "canVote": True}
+print(dict1)
