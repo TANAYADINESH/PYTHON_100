@@ -1,0 +1,11 @@
+#calculator
+a= float(input("Enter first number: "))
+b= float(input("Enter second number: "))
+
+print(f"The sum of {a} and {b} is: {a+b}")
+print(f"The difference of {a} and {b} is: {a-b}")
+print(f"The product of {a} and {b} is: {a*b}")
+print(f"The division of {a} and {b} is: {a/b}")
+print(f"The modulus of {a} and {b} is: {a%b}")
+print(f"The exponent of {a} and {b} is: {a**b}")
+print(f"The floor division of {a} and {b} is: {a//b}")
