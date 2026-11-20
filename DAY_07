@@ -1,0 +1,26 @@
+OPERATORS - Python has diff types of operators for diff types of operations.
+
+1) Arithmetic Operators (+, -, *, //, /, %, **)
+
+2) Assignment Operators (=, +=, -=, *=, /=, //=, %=, :=, **=)
+   * Note: := is the walrus operator
+
+3) Comparison / Relational (==, !=, >, <, >=, <=)
+
+4) Logical Operators (and, or, not)
+
+5) Identity Operators
+   * is: returns True if both variables are same
+   * is not: returns True if both are not same
+
+6) Membership Operators - used to test if a value exist inside seq.
+   * in: returns True if value is found ("a" in "apple" -> True).
+   * not in: returns True if value is not found (5 not in [1,2,3] -> True)
+
+7) Bitwise Operators -
+   * AND (&)
+   * OR (|)
+   * XOR (^)
+   * NOT (~)
+   * << (zero-fill left shift)
+   * >> (signed right shift)
